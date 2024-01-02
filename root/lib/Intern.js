@@ -10,3 +10,4 @@ class Intern extends Employee {
     super(id, name, email, getName, getId, getEmail, getRole);
   }
 }
+module.exports = Intern;

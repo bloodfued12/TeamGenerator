@@ -6,3 +6,4 @@ class Manager extends Employee {
     super(id,name, email, getName, getId, getEmail, getRole);
     }
 }
+module.exports = Manager;
