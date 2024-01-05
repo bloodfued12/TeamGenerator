@@ -13,4 +13,23 @@ const render = require("./src/page-template.js");
 
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
+function askUser(){
+    inquirer.prompt(
+    {
+        type: "list",
+        message: "Would you like to create a new employee?",
+        name: "type",
+        choices: ["Manager", "Engineer", "Intern", "None"]
+    }
+    ).then(
+        if(answer === "Manager"){
 
+        } elseif(answer === "Engineer"){
+
+        }elseif(answer === "Intern"){
+            
+        }
+    )
+
+}
+ askUser();
