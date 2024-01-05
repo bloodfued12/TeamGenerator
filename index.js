@@ -14,27 +14,3 @@ const render = require("./src/page-template.js");
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 
-inquirer
-.prompt([
-    {
-        type: 'input',
-        message: "What's the employee's name?",
-        name: "employeeName"
-    },
-    {
-        type: 'input',
-        message: "What's the employee's ID number?",
-        name: "employeeId"
-    },
-    {
-        type: 'input',
-        message: "What's the employee's name?",
-        name: "employeeName"
-    },
-    {
-        type: 'input',
-        message: "What's the employee's name?",
-        name: "employeeName"
-    },
-    
-])
